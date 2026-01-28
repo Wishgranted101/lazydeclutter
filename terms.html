@@ -2,26 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms of Service | LazyDeclutter</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>body { font-family: 'Inter', sans-serif; }</style>
 </head>
-<body class="bg-gray-50 text-gray-800 p-10 font-sans">
-    <div class="max-w-3xl mx-auto bg-white p-12 rounded-3xl shadow-sm border border-gray-100">
-        <h1 class="text-3xl font-black mb-8 uppercase tracking-tighter">Terms of Service</h1>
-        <p class="mb-6 italic text-gray-500">Last updated: January 2026</p>
-        
-        <h2 class="text-xl font-bold mt-8 mb-4">1. The "Expert" Judge Disclaimer</h2>
-        <p class="mb-4">Dusty the Sloth provides decluttering verdicts (SELL, DONATE, TOSS) based on commercial logic and AI reasoning. These valuations are estimates and do not constitute professional financial advice.</p>
-        
-        <h2 class="text-xl font-bold mt-8 mb-4">2. User Responsibility</h2>
-        <p class="mb-4">Users are responsible for the actual disposal of items. LazyDeclutter is not liable for items discarded based on Dusty's commands.</p>
-        
-        <h2 class="text-xl font-bold mt-8 mb-4">3. Monetization & Subscriptions</h2>
-        <p class="mb-4">Access to the basic "Toss" habit loop is free. Advanced AI features are provided via subscription or lifetime purchase. Lifetime access is defined as the lifespan of the application.</p>
-        
-        <div class="mt-12">
-            <a href="index.html" class="text-[#E67E22] font-bold">← Back to Home</a>
+<body class="bg-gray-50 text-gray-800 flex flex-col min-h-screen">
+    
+    <main class="flex-grow p-6 md:p-20">
+        <div class="max-w-3xl mx-auto bg-white p-8 md:p-16 rounded-[2.5rem] shadow-sm border border-gray-100">
+            <h1 class="text-3xl font-black mb-8 uppercase tracking-tighter text-gray-900">Terms of Service</h1>
+            <p class="mb-8 italic text-gray-500">Last updated: January 2026</p>
+            
+            <section class="space-y-8">
+                <div>
+                    <h2 class="text-lg font-black uppercase text-[#E67E22] mb-3">1. AI Verdict Disclaimer</h2>
+                    <p class="leading-relaxed">Dusty the Sloth provides decluttering commands (SELL, DONATE, TOSS) based on AI logic. These are estimates of market demand and do not constitute financial advice.</p>
+                </div>
+                
+                <div>
+                    <h2 class="text-lg font-black uppercase text-[#E67E22] mb-3">2. The 15-Minute Rule</h2>
+                    <p class="leading-relaxed">Our methodology is built on 15-minute sprints to avoid decision fatigue. Users acknowledge that progress is incremental and depends on consistent daily action.</p>
+                </div>
+
+                <div>
+                    <h2 class="text-lg font-black uppercase text-[#E67E22] mb-3">3. Liability</h2>
+                    <p class="leading-relaxed">LazyDeclutter is a decision-making assistant. We are not responsible for the physical disposal of items or any loss of value from sold items.</p>
+                </div>
+            </section>
+
+            <div class="mt-16 pt-8 border-t border-gray-100">
+                <a href="index.html" class="text-[#E67E22] font-black uppercase tracking-widest text-sm hover:opacity-70 transition-all">← Back to Mission</a>
+            </div>
         </div>
-    </div>
+    </main>
+
+    <footer class="bg-gray-900 py-12 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-center gap-8 text-gray-500 text-[10px] font-black uppercase tracking-[0.2em]">
+                <a href="index.html" class="hover:text-white transition-colors">Home</a>
+                <a href="privacy.html" class="hover:text-white transition-colors">Privacy Policy</a>
+                <a href="terms.html" class="text-white">Terms of Service</a>
+            </div>
+            <p class="mt-8 text-gray-600 text-[10px] font-bold">&copy; 2026 LAZYDECLUTTER LLC. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
