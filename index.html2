@@ -7,12 +7,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
-        /* SMOOTH SCROLL FIX: Ensures the scroll feels polished */
+        /* SMOOTH SCROLL: Ensures the "Lock In My Spot" button slides gracefully */
         html { scroll-behavior: smooth; }
         body { font-family: 'Inter', sans-serif; }
-       .hero-gradient { background: linear-gradient(180deg, #F5F5F0 0%, #FFFFFF 100%); }
-       .accent-orange { color: #E67E22; }
-       .bg-accent-orange { background-color: #E67E22; }
+      .hero-gradient { background: linear-gradient(180deg, #F5F5F0 0%, #FFFFFF 100%); }
+      .accent-orange { color: #E67E22; }
+      .bg-accent-orange { background-color: #E67E22; }
     </style>
 </head>
 <body class="bg-white text-gray-900">
@@ -42,7 +42,7 @@
 
             <div class="flex justify-center">
                 <div class="relative w-full max-w-[200px] md:max-w-[260px] shadow-2xl rounded-[2.5rem] border-[8px] border-gray-900 overflow-hidden">
-                    <img src="app_screenshot.png" alt="LazyDeclutter App Interface" class="w-full">
+                    <img src="dusty.appmockup.png" alt="LazyDeclutter App Interface" class="w-full">
                 </div>
             </div>
 
@@ -56,14 +56,14 @@
                 <h3 class="text-3xl font-black mb-6 italic leading-tight">"Dusty doesn't care about your feelings."</h3>
                 <p class="text-base text-gray-600 mb-6">
                     Stuck on an item? Ask Dusty. He uses "Time vs. Money" logic to identify your stuff and issue a command: 
-                    <span class="font-bold">SELL, DONATE, or TOSS.</span>
+                    <span class="font-bold uppercase">Sell, Donate, or Toss.</span>
                 </p>
             </div>
             
             <div class="flex justify-center md:justify-end">
                 <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden flex flex-col w-48 md:w-64">
                     <div class="aspect-square w-full">
-                        <img src="dusty.glass.light.mode.png" alt="Dusty investigative state" class="w-full h-full object-cover">
+                        <img src="dusty.glass.light.mode.png" alt="Expert Scan" class="w-full h-full object-cover">
                     </div>
                     <h4 class="font-black text-[10px] py-3 bg-white tracking-widest uppercase">Expert Scan</h4>
                 </div>
@@ -86,7 +86,7 @@
             
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden flex flex-col">
-                    <div class="aspect-square w-full"><img src="dusty.toss.light.mode.png" class="w-full h-full object-cover"></div>
+                    <div class="aspect-square w-full"><img src="dusty.stuff.light.mode.png" class="w-full h-full object-cover"></div>
                     <h4 class="font-black text-[10px] py-3 tracking-widest uppercase">TOSS IT</h4>
                 </div>
                 <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden flex flex-col">
@@ -98,7 +98,7 @@
                     <h4 class="font-black text-[10px] py-3 tracking-widest uppercase">DONE</h4>
                 </div>
                 <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden flex flex-col">
-                    <div class="aspect-square w-full"><img src="dusty_yeeyee.png" class="w-full h-full object-cover"></div>
+                    <div class="aspect-square w-full"><img src="dusty.yeh.light.mode.png" class="w-full h-full object-cover"></div>
                     <h4 class="font-black text-[10px] py-3 tracking-widest uppercase">RELIEVED</h4>
                 </div>
             </div>
@@ -108,7 +108,7 @@
     <footer class="bg-gray-900 text-white py-16 px-6 text-center">
         <h2 class="text-3xl font-black mb-6 italic leading-tight">Ready to make progress?</h2>
         <p class="text-gray-400 mb-8 max-w-lg mx-auto text-sm">
-            Join the waitlist now to receive a <span class="text-white font-bold italic">Lifetime Premium Pass</span> if you are one of the first 500 signups.
+            LazyDeclutter is launching soon. Join the waitlist now to receive a <span class="text-white font-bold italic">Lifetime Premium Pass</span> if you are one of the first 500 signups.
         </p>
         <a href="#waitlist-top" class="inline-block bg-accent-orange px-8 py-4 rounded-xl font-black text-base hover:scale-105 transition-all shadow-lg uppercase tracking-widest">
             Lock In My Spot
