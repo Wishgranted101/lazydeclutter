@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LazyDeclutter | End Clutter Paralysis in 15 Minutes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+     .hero-gradient { background: linear-gradient(180deg, #F5F5F0 0%, #FFFFFF 100%); }
+     .accent-orange { color: #E67E22; }
+     .bg-accent-orange { background-color: #E67E22; }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+
+    <section class="hero-gradient pt-16 pb-8 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-black tracking-tight mb-4 leading-tight">
+                End <span class="accent-orange">Clutter Paralysis</span> <br>in 15 Minutes.
+            </h1>
+            <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                Meet Dusty, the witty AI Sloth who acts as your judge. Point your camera, get a verdict, and reclaim your home.
+            </p>
+            
+            <div class="max-w-xs md:max-w-sm mx-auto mb-12">
+                <form action="https://formspree.io/f/YOUR_ID_HERE" method="POST" class="flex flex-col gap-3">
+                    <input type="email" name="email" placeholder="Enter your email" required 
+                        class="px-5 py-3 rounded-xl border-2 border-gray-200 focus:border-orange-500 outline-none text-base">
+                    <button type="submit" class="bg-accent-orange text-white px-6 py-3 rounded-xl font-bold text-base hover:opacity-90 transition-all shadow-md">
+                        Get Early Access
+                    </button>
+                </form>
+                <p class="text-[10px] text-gray-400 mt-3 italic">Join 500+ early testers. No login required for daily habits.</p>
+            </div>
+
+            <div class="relative max-w-[220px] md:max-w-[260px] mx-auto shadow-2xl rounded-[2.5rem] border-[8px] border-gray-900 overflow-hidden">
+                <img src="app_screenshot.png" alt="LazyDeclutter App Interface" class="w-full">
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 px-6 bg-gray-50 text-center">
+        <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+            <div class="text-left">
+                <h2 class="text-xl font-black mb-2 uppercase tracking-wider text-gray-400">The "Expert" Judge</h2>
+                <h3 class="text-3xl font-black mb-6 italic leading-tight">"Dusty doesn't care about your feelings."</h3>
+                <p class="text-base text-gray-600 mb-6">
+                    Stuck on an item? Ask Dusty. He uses "Time vs. Money" logic to identify your stuff and issue a command: 
+                    <span class="font-bold">SELL, DONATE, or TOSS.</span>
+                </p>
+            </div>
+            <div class="flex justify-center md:justify-end">
+                <img src="dusty_scanning.png" alt="Dusty the Sloth Scanning" class="w-40 md:w-56 drop-shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <div class="inline-block bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-[10px] font-bold tracking-widest mb-4 uppercase">
+                The 15-Minute Habit
+            </div>
+            <h2 class="text-3xl md:text-4xl font-black mb-6 leading-tight">
+                One Micro-Mission a Day.<br>A Lifetime of Serenity.
+            </h2>
+            <p class="text-base text-gray-600 mb-10 max-w-xl mx-auto">
+                We're restoring the vanished "Toss" app loop. Bite-sized daily challenges focused strictly on item removal. 
+                Track your progress with our <span class="accent-orange font-bold">Dopamine Tally</span>.
+            </p>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden flex flex-col">
+                    <div class="aspect-square w-full">
+                        <img src="dusty_toss.png" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="font-black text-[10px] py-3 bg-white tracking-widest uppercase">TOSS IT</h4>
+                </div>
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden flex flex-col">
+                    <div class="aspect-square w-full">
+                        <img src="dusty_sold.png" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="font-black text-[10px] py-3 bg-white tracking-widest uppercase">CASH IN</h4>
+                </div>
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden flex flex-col">
+                    <div class="aspect-square w-full">
+                        <img src="dusty_success.png" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="font-black text-[10px] py-3 bg-white tracking-widest uppercase">DONE</h4>
+                </div>
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden flex flex-col">
+                    <div class="aspect-square w-full">
+                        <img src="dusty_yeeyee.png" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="font-black text-[10px] py-3 bg-white tracking-widest uppercase">YEH! YEH!</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-16 px-6 text-center">
+        <h2 class="text-3xl font-black mb-6 italic leading-tight">Ready to make progress?</h2>
+        <p class="text-gray-400 mb-8 max-w-lg mx-auto text-sm">
+            LazyDeclutter is launching soon. Join the waitlist now to receive a <span class="text-white font-bold italic">Lifetime Premium Pass</span> if you are one of the first 500 signups.
+        </p>
+        <a href="#waitlist-top" class="inline-block bg-accent-orange px-8 py-4 rounded-xl font-black text-base hover:scale-105 transition-all shadow-lg uppercase tracking-widest">
+            Lock In My Spot
+        </a>
+    </footer>
+
+</body>
+</html>
